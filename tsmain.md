@@ -1,0 +1,138 @@
+layout: page
+title: "Totally Science Sites"
+permalink: /totallyscience/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Totally Science</title>
+    <!--Cache Killer-->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script>
+        const html = document.getElementsByTagName('head')[0].innerHTML;
+        const title = document.getElementsByTagName('title')[0];
+
+
+        /*const mainJS = document.createElement("script")
+        mainJS.src = `assets/scripts/main.js?${new Date().getTime()}`
+        title.insertAdjacentElement('afterend', mainJS)*/
+
+        //title.insertAdjacentElement('afterend', accountJS)
+
+        //const mainCSS = `<link rel='stylesheet' href='assets/styles/main.css?${new Date().getTime()}'>`
+        //const preferencesCSS = `<link rel='stylesheet' href='assets/styles/preferences.css?${new Date().getTime()}'>`
+
+        //document.getElementsByTagName('head')[0].innerHTML += mainCSS + preferencesCSS
+    </script>
+
+    <link rel='stylesheet' href='./main.css'>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!--End Cache Killer-->
+
+    <link rel="icon" href="./assets/logo.png">
+
+    <link rel="stylesheet" href="./popups/modal.css">
+
+    <style>
+        #headerText {
+            text-align: center;
+        }
+        
+        #headerText h1 {
+            color: red;
+        }
+        
+        #mainButton {
+            padding-top: 2vw;
+            text-align: center;
+        }
+        
+        #mainButton button {
+            font-size: 2vw;
+            width: 16vw;
+            height: 3vw;
+            color: var(--light-color);
+            background-color: var(--accent-color);
+            border: 0px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        #linksText {
+            text-align: center;
+            font-size: 1vw;
+            padding-top: 4vh;
+        }
+        
+        .link {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .link:hover {
+            color: var(--accent-color);
+        }
+        
+        .check::after {
+            font-size: 1vw;
+            content: ' \2714';
+            color: rgb(0, 255, 0);
+        }
+        
+        .x::after {
+            font-size: 1vw;
+            content: ' \274C';
+            color: red;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div id="navbar">
+        <div id="leftbar">
+        </div>
+        <div id="middlebar">
+            <p>Totally Science</p>
+        </div>
+        <div id="rightbar">
+        </div>
+    </div>
+
+    <div style="padding-top: 90px;"></div>
+
+    <div id="headerText">
+        <h1 id="bookmarkText">Make sure you bookmark this tab by pressing CTRL + D</h1>
+        <h2>This website will be updated with new links whenever they are created so <span style="color: var(--accent-color);"><b>Totally Science</b> never gets blocked</span>.</h2>
+    </div>
+
+    <!--<div id="mainButton">
+        <button onclick="window.open('https://docs.google.com/document/d/11nMRRXdlWo2UtfUJ_dhPpy-iePMBRLVfJnlIt_wTq0M/edit?usp=sharing', '_blank')">Google Doc</button>
+    </div>-->
+
+    <div id="linksText">
+        <p><a class="link" href="https://totallyscience.co">&#x1F451; https://totallyscience.co</a></p>
+        <p><a class="link" href="https://totallyscience.github.io">https://totallyscience.github.io</a></p>
+        <p><a class="link" href="https://totallymath.org">https://totallymath.org</a></p>
+        <p><a class="link" href="https://totallyalgebra.com">https://totallyalgebra.com</a></p>
+        <p><a class="link" href="https://definitelyscience.com">https://definitelyscience.com</a></p>
+        <p><a class="link" href="https://mathplace.co">https://mathplace.co</a></p>
+        <p><a class="link" href="https://actuallyspanish.com">https://actuallyspanish.com</a></p>
+        <p><a class="link" href="https://actuallymath.com">https://actuallymath.com</a></p>
+        <p><a class="link" href="https://literallymath.com">https://literallymath.com</a></p>
+        <p><a class="link" href="https://sidthescientist.com">https://sidthescientist.com</a></p>
+    </div>
+
+
+    <script src="./popups/modal.js"></script>
+</body>
+
+
+<script src="./main.js?v2"></script>
+
+</html>
